@@ -1,0 +1,29 @@
+/// \mainpage The Blank Game
+/// 
+/// This is pretty much what it says, a blank 2d game with
+/// a geometrically implausible shape in the background
+/// and a rotating sprite of some amusing text.
+/// Its purpose is to get you started quickly on the basics
+/// of making a 2D game with the LARC Engine. You can also
+/// use it to start development of a new game.
+///
+/// @image html screenshot.png
+/// 
+/// The controls are very basic. Press the space bar down and you will
+/// hear a sound. Release it and you will hear another one. Press the
+/// Escape key to exit. These are summarized below.
+///
+/// <center>
+/// <table>
+/// <tr>
+/// <td><center><b>Key</b></center></td>
+/// <td><center><b>Action</b></center></td>
+/// <tr>
+/// <td>ESC</td>
+/// <td>Exit</td>
+/// <tr>
+/// <td>Space</td>
+/// <td>Play a sound when pressed and another when released</td>
+/// </table>
+/// </center>
+

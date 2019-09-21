@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+	<game name="Virtually Sub Par!" />
+   <renderer width="1600" height="900"/>
+   
+   <font file="Media\Fonts\Arial_24.spritefont"/>
+
+   <!-- sprites -->
+   
+   <sprites path="Media\Images">
+     <sprite name="background" file="background.png"/>
+	 <sprite name="tile" file="tile" ext="png" frames="2" />
+     <sprite name="textwheel" file="textwheel.tif"/>
+	 <sprite name="Testsprite" file="Test.png"/>
+	 <sprite name="PLAYER_MASK" file="PlayerMask.png"/>
+	 <sprite name="WALL_MASK" file="WallMask.png"/>
+	 <sprite name="greenline" file="greenline.tif"/>
+	 <sprite name="pig" file="pig.tif"/>
+	 <sprite name="PenguinWalkDown" file="PenguinWalkDown_" ext = "png" frames = "6" />
+	 <sprite name="PenguinWalkUp" file="PenguinWalkUp_" ext = "png" frames = "6" />
+	 <sprite name="PenguinWalkLeft" file="PenguinWalkLeft_" ext = "png" frames = "6" />
+	 <sprite name="PenguinWalkRight" file="PenguinWalkRight_" ext = "png" frames = "6" />
+	 <sprite name="PenguinIdle" file="PenguinIdle_" ext = "png" frames = "4" />
+	 <sprite name="PenguinIdleL" file="PenguinIdleL_" ext = "png" frames = "4" />
+	 <sprite name="HIT" file="HIT_" ext = "png" frames = "6" />
+	 <sprite name="LeoneIdle" file="FiLeone.png"/>
+	 <sprite name="LeoneRun" file="LeonePlaceholder.png"/>
+	 <sprite name="LeoneAttack" file="LeoneAttack000" ext = "png" frames = "4" />
+	 <sprite name="DozerUp" file="BabyUp.png"/>
+	 <sprite name="DozerDown" file="BabyDown.png"/>
+	 <sprite name="DozerLeft" file="BabyLeft.png"/>
+	 <sprite name="DozerRight" file="BabyRight.png"/> 
+	 <sprite name="BugIdle" file="BugIdle000" ext = "png" frames = "4" />
+	 <sprite name="BugAttack" file="BugAttack000" ext = "png" frames = "4" />
+	 <sprite name="SnotBall" file="BogeySnotBall.png"/>
+	 <sprite name="GolfBall" file="TheBall.png"/>
+	 <sprite name="Hole" file="Hole.png"/>
+	 <sprite name="ARROW" file="Arrow.png"/>
+	 <sprite name="NullSprite" file="NullSprite.png"/>
+      <sprite name="subtitle" file="subtitle.png"/>
+	 <sprite name="sublose" file="LoseScreen.png"/>
+	 <sprite name="subnext" file="NextScreen.png"/>
+	 <sprite name="subwin" file="FinalWinScreen.png"/>
+	 <sprite name="Dust" file="Dust.png"/>
+	  <sprite name="Head" file="BossHead.png"/>
+	  <sprite name="FGrade" file="FGrade.png"/>
+	  <sprite name="BallBar" file="HealthBarBall.png"/>
+	  <sprite name="PlayerBar" file="HealthBar.png"/>
+	  <sprite name="HeadHurt" file="BossFaceHurt.png"/>
+	  <sprite name="HandRight" file="R_RightSmash_" ext = "png" frames = "8" />
+	  <sprite name="HandLeft" file="L_LeftSmash_" ext = "png" frames = "8" />
+	 
+	 
+   </sprites>
+
+   <!-- sound -->
+  
+   <sounds  path="Media\Sounds">
+	<sound file="Areallifebaby.wav" instances="1"/>
+	<sound file="Arrg.wav" instances="1"/>
+	<sound file="BabyHit.wav" instances="2"/>
+	<sound file="BallBounce.wav" instances="8"/>
+	<sound file="BugBuzz.wav" instances="4"/>
+	<sound file="Captian.wav" instances="1"/>
+     <sound file="clang.wav" instances="8"/>
+	 <sound file="DavyJones.wav" instances="1"/>
+	<sound file="DeadBaby.wav" instances="2"/>
+	<sound file="DeadBug.wav" instances="4"/>
+	<sound file="DyingCat.wav" instances="4"/>
+     <sound file="umph.wav" instances="8"/>
+     <sound file="ForTheCourse.wav" instances="1"/>
+	 <sound file="Holeinone.wav" instances="1"/>
+	<sound file="SinkBall.wav" instances="1"/>
+	<sound file="SwingClub.wav" instances="1"/>
+	<sound file="TheCatsMeow.wav" instances="4"/>
+	<sound file="Tornado.wav" instances="4"/>
+     <sound file="UnderPar.wav" instances="1"/>
+	<sound file="ShootSnot.wav" instances="4"/>
+	<sound file="YouBeatALevel.wav" instances="1"/>
+	<sound file="YoureAwinner.wav" instances="1"/>
+	<sound file="Yourebad.wav" instances="1"/>
+	<sound file="YouShallNot.wav" instances="1"/>
+   </sounds>
+</settings>

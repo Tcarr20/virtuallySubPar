@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="ObjectManager.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemy.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CLeone.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp" />
+    <ClCompile Include="Bugs.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CDozer.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CBall.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemyProjectile.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerExt.cpp" />
+    <ClCompile Include="CGoal.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CHand.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CHead.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="DebugPrintf.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameDefines.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="ObjectManager.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Sndlist.h" />
+    <ClInclude Include="CPlayer.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemy.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CLeone.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h" />
+    <ClInclude Include="Bugs.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CDozer.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CBall.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemyProjectile.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerExt.h" />
+    <ClInclude Include="CGoal.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CHand.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CHead.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="My Game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{2545b987-996d-42c0-bbc3-f412a2664793}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
